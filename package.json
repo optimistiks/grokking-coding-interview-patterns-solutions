@@ -1,0 +1,29 @@
+{
+  "name": "grokking-coding-interview-patterns-solutions",
+  "version": "1.0.0",
+  "description": "My solutions and tests of the tasks from the Grokking Coding Interview Patterns course on Educative.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/optimistiks/grokking-coding-interview-patterns-solutions.git"
+  },
+  "keywords": [
+    "educative",
+    "grokking",
+    "coding",
+    "interview",
+    "patterns",
+    "solutions",
+    "coding",
+    "interview"
+  ],
+  "author": "optimistiks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/optimistiks/grokking-coding-interview-patterns-solutions/issues"
+  },
+  "homepage": "https://github.com/optimistiks/grokking-coding-interview-patterns-solutions#readme"
+}
