@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "My solutions and tests of the tasks from the Grokking Coding Interview Patterns course on Educative.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "node --test"
   },
@@ -25,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/optimistiks/grokking-coding-interview-patterns-solutions/issues"
   },
-  "homepage": "https://github.com/optimistiks/grokking-coding-interview-patterns-solutions#readme"
+  "homepage": "https://github.com/optimistiks/grokking-coding-interview-patterns-solutions#readme",
+  "devDependencies": {
+    "prettier": "^2.8.2"
+  }
 }
