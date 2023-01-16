@@ -63,4 +63,7 @@ describe("findMinWindowSubsequence", () => {
   it('"kzedkzedkzed", "kzed"', () => {
     assert.equal(findMinWindowSubsequence("kzedkzedkzed", "kzed"), "kzed");
   });
+  it('"kzedkzedkzed", "doesntexist"', () => {
+    assert.equal(findMinWindowSubsequence("kzedkzedkzed", "doesntexist"), "");
+  });
 });

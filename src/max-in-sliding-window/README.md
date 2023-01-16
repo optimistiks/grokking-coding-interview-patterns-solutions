@@ -1,16 +1,16 @@
-#### Statement
+### Statement
 
 Given an integer `array` and a window of size `w`, find the current maximum value in the window as it slides through the entire array.
 
 Note: If the window size is greater than the array size, we consider the entire array as a single window.
 
-#### Constraints
+### Constraints
 
 1 <= `array.length` <= 10^3  
 -10^4 <= `array[i]` <= 10^4  
 1 <= `w`
 
-#### Complexity
+### Complexity
 
 At first it might seem that we iterate the whole window at every element, making it O(n \* w) but it's not the case. Since we remove elements from the sliding window, usually the sliding window contains only one element. In other cases we don't do any operations with the sliding window at all.
 
@@ -27,6 +27,6 @@ Since it can happen only after `w` elements, it can only happen n/w times. In th
 
 So the overall complexity of the solution is O(w + n).
 
-#### Space complexity
+### Space complexity
 
 O(w) where w is the size of the sliding window.
