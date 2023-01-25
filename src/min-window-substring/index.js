@@ -2,6 +2,7 @@ export function minWindowSubstring(s, t) {
   if (t === "") {
     return "";
   }
+
   // count of each unique character in string t
   const tCount = {};
   // count of each unique character in the current sliding window
